@@ -1,0 +1,114 @@
+body {
+  width: 1200px;
+  color: white;
+  font-family: 'Shippori Mincho', serif;
+  margin: 0 auto;
+}
+
+.firstview {
+  width: 1200px;
+  height: 600px;
+  background-image: url(../img/firstview.png);
+  background-size: cover;
+}
+
+.header {
+  margin: 0 auto;
+  display: flex;
+  padding-top: 10px;
+}
+
+.header__ttl {
+  margin-left: 20px;
+  font-size: 25px;
+}
+
+.header__nav {
+  display: flex;
+  list-style: none;
+  margin-left: 50px;
+  align-items: flex-end;
+}
+
+a.nav-a {
+  text-decoration: none;
+  color: inherit;
+  font-size: 14px;
+}
+
+.header__nav-list {
+  margin-right: 30px;
+}
+
+.firstview__text {
+  margin: 300px 100px;
+  width: 300px;
+}
+
+.firstview__text-ttl {
+  font-size: 60px;
+  text-align: center;
+}
+
+.firstview__text-season {
+  font-size: 22px;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.img {
+  display: flex;
+}
+
+.img__card-LifeStyle {
+  background-image: url(../img/topics-img1.png);
+    width: 400px;
+    height: 250px;
+}
+
+.img__card-Inportant {
+  background-image: url(../img/topics-img2.png);
+  width: 400px;
+  height: 250px;
+}
+
+.img__card-Culture {
+  background-image: url(../img/topics-img3.png);
+  width: 400px;
+  height: 250px;
+}
+
+.img__card-ttl {
+  margin: 150px 0 30px 20px;
+  font-size: 26px;
+}
+
+.img__card-text {
+  font-size: 14px;
+  margin: 0 20px;
+}
+
+.Style {
+  background: linear-gradient(black, white);
+  padding: 40px 0;
+}
+.Style__ttl {
+  font-size: 40px;
+  margin-left: 100px;
+}
+
+.Style__wrap {
+  column-count: 3;
+  width: 1000px;
+  margin: 0 auto;
+}
+
+.Style__wrap-item {
+  break-inside: avoid;
+  text-align: center;
+}
+
+.Style__wrap-item img{
+  width: 100%;
+  margin-top: 30px;
+}
